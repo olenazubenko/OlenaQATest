@@ -1,0 +1,90 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #9dcaac;
+    width: 100%;
+    height: 100%;
+    font-family: Georgia, serif;
+    margin: 20px;
+}
+
+.page-wrapper {
+    min-height: 100%;
+}
+
+.fit-picture{
+    width: 250px;
+    height: 250px;
+}
+
+.main-name h1{
+    margin-left: 50px;
+    vertical-align: middle;
+    font-size: 32px;
+    position: absolute;
+    top: 125px;
+}
+
+.top-wrapper  div {
+    float: left;
+}
+
+.center-wrapper{
+    clear: both;
+    padding-top: 50px;
+    min-height: 100%;
+}
+
+.main-menu {
+    float: left;
+    height: 500px;
+    width:  300px;
+    font-size: 20px;
+}
+
+.main-menu a,
+.content a {
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.main-menu a:hover,
+.content a:hover{
+    text-decoration: underline;
+}
+
+.main-menu h3{
+    padding: 6px 30px;
+}
+
+.content{
+   margin-left: 300px; 
+}
+
+.content p,  
+.content div{
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+.content b{
+    font-weight: bold;
+}
+
+#gallery {
+    margin: -6px auto;
+    width: 700px;
+}
+
+#gallery img{
+    margin: 6px;
+    width: 333px;
+    height: 500px;
+}
+
+
+
